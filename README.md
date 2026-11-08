@@ -1,8 +1,11 @@
-<img src="assets/header.svg" width="100%" alt="sunlitsoil. 산업 자동화 현장에서 약 3년을 보내고 AI로 넘어왔습니다. AI에게 일을 맡기는 지금은 맡긴 결과가 맞는지 무엇으로 확인할지를 붙잡고 있습니다.">
+<img src="assets/header.svg" width="100%" alt="sunlitsoil">
+
+산업 자동화 현장에서 약 3년을 보내고 AI로 넘어왔습니다.
+AI에게 일을 맡기는 지금은 맡긴 결과가 맞는지 무엇으로 확인할지를 붙잡고 있습니다.
 
 ## 팀 프로젝트
 
-<img src="assets/pipeline.svg" width="100%" alt="공정 도면 심볼 인식 파이프라인: 심볼 검출, 텍스트 짝짓기, 배관 연결, CAD 원본 추출. 운영 기본 엔진으로 채택.">
+<img src="assets/pipeline.svg" width="100%" alt="공정 도면 심볼 인식: 심볼 검출, 텍스트 짝짓기, 배관 연결, CAD 원본 추출. 운영 기본 엔진으로 채택.">
 
 | 프로젝트 | 맡은 일 | 결과 |
 | :--- | :--- | :--- |
