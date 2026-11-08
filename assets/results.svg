@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 270" width="840" height="270" role="img" aria-label="바꾸기 전과 후. 노트 검색 R@10 78.2%에서 88.2%, 개인정보 가림 재현율 0.875에서 1.000, 관상네컷 응답 80초에서 40초.">
+<style>
+  text{font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Malgun Gothic","Noto Sans KR",sans-serif}
+  :root{--ink:#1a1d21;--sub:#5b6168;--line:#d5d9dd;--acc:#1f5f63;--pre:#b8bec4}
+  @media (prefers-color-scheme:dark){:root{--ink:#e6e8ea;--sub:#9aa1a8;--line:#3a4046;--acc:#6fb7b4;--pre:#5a6168}}
+  .ink{fill:var(--ink)} .sub{fill:var(--sub)} .acc{fill:var(--acc)}
+  @keyframes fade{to{opacity:1}}
+
+  .pre{fill:var(--pre)} .bar{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:grow 1s cubic-bezier(.2,.7,.2,1) forwards}
+  .val{opacity:0;animation:fade .5s forwards}
+  @keyframes grow{to{transform:scaleX(1)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important;stroke-dashoffset:0!important}}
+</style>
+<text class="sub" x="0" y="14" font-size="12">같은 조건에서 바꾸기 전과 후</text>
+<text class="ink" x="0" y="54" font-size="15" font-weight="700">노트 검색</text>
+<text class="sub" x="0" y="76" font-size="12">같은 119개 질문, 노트 단위 R@10</text>
+<text class="sub" x="290" y="53" font-size="11" text-anchor="end">전</text>
+<rect class="bar pre" style="animation-delay:0.00s" x="300" y="42" width="344.0" height="14" rx="3"/>
+<text class="sub val" style="animation-delay:0.90s" x="652.0" y="54" font-size="13" font-weight="400">78.2%</text>
+<text class="sub" x="290" y="75" font-size="11" text-anchor="end">후</text>
+<rect class="bar acc" style="animation-delay:0.25s" x="300" y="64" width="388.0" height="14" rx="3"/>
+<text class="ink val" style="animation-delay:1.15s" x="696.0" y="76" font-size="13" font-weight="700">88.2%</text>
+<line x1="300" y1="38" x2="300" y2="82" stroke="var(--line)" stroke-width="1"/>
+<text class="ink" x="0" y="134" font-size="15" font-weight="700">개인정보 가림</text>
+<text class="sub" x="0" y="156" font-size="12">같은 22개 사례, 실제 가려진 결과 기준 재현율</text>
+<text class="sub" x="290" y="133" font-size="11" text-anchor="end">전</text>
+<rect class="bar pre" style="animation-delay:0.35s" x="300" y="122" width="385.0" height="14" rx="3"/>
+<text class="sub val" style="animation-delay:1.25s" x="693.0" y="134" font-size="13" font-weight="400">0.875</text>
+<text class="sub" x="290" y="155" font-size="11" text-anchor="end">후</text>
+<rect class="bar acc" style="animation-delay:0.60s" x="300" y="144" width="440.0" height="14" rx="3"/>
+<text class="ink val" style="animation-delay:1.50s" x="748.0" y="156" font-size="13" font-weight="700">1.000</text>
+<line x1="300" y1="118" x2="300" y2="162" stroke="var(--line)" stroke-width="1"/>
+<text class="ink" x="0" y="214" font-size="15" font-weight="700">관상네컷</text>
+<text class="sub" x="0" y="236" font-size="12">같은 사진 기준 응답 시간, 짧을수록 좋음</text>
+<text class="sub" x="290" y="213" font-size="11" text-anchor="end">전</text>
+<rect class="bar pre" style="animation-delay:0.70s" x="300" y="202" width="440.0" height="14" rx="3"/>
+<text class="sub val" style="animation-delay:1.60s" x="748.0" y="214" font-size="13" font-weight="400">80초</text>
+<text class="sub" x="290" y="235" font-size="11" text-anchor="end">후</text>
+<rect class="bar acc" style="animation-delay:0.95s" x="300" y="224" width="220.0" height="14" rx="3"/>
+<text class="ink val" style="animation-delay:1.85s" x="528.0" y="236" font-size="13" font-weight="700">40초</text>
+<line x1="300" y1="198" x2="300" y2="242" stroke="var(--line)" stroke-width="1"/>
+</svg>
